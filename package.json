@@ -1,18 +1,16 @@
 {
   "name": "@nodstudio/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prettier configuration from NOD Studio",
-  "type": "module",
-  "exports": "./index.js",
+  "main": "index.js",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "prettier": "@nodstudio/prettier-config",
   "dependencies": {
-    "prettier-plugin-tailwindcss": "^0.6.9"
+    "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "peerDependencies": {
-    "prettier": ">=3.0.0"
+    "prettier": "^3.0.0"
   }
 }
